@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2EE0292D375C3000AA3739 /* DailyBoostApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA2EE0282D375C3000AA3739 /* DailyBoostApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2EE02A2D375C3000AA3739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2EE01C2D375C3000AA3739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2EE0272D375C3000AA3739;
+			remoteInfo = "DailyBoostApp Watch App";
+		};
+		AA2EE03B2D375C3200AA3739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2EE01C2D375C3000AA3739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2EE0272D375C3000AA3739;
+			remoteInfo = "DailyBoostApp Watch App";
+		};
+		AA2EE0452D375C3200AA3739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2EE01C2D375C3000AA3739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2EE0272D375C3000AA3739;
+			remoteInfo = "DailyBoostApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA2EE0512D375C3200AA3739 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA2EE0292D375C3000AA3739 /* DailyBoostApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA2EE0222D375C3000AA3739 /* DailyBoostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyBoostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2EE0282D375C3000AA3739 /* DailyBoostApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DailyBoostApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2EE03A2D375C3200AA3739 /* DailyBoostApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DailyBoostApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2EE0442D375C3200AA3739 /* DailyBoostApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DailyBoostApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA2EE02C2D375C3000AA3739 /* DailyBoostApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DailyBoostApp Watch App";
+			sourceTree = "<group>";
+		};
+		AA2EE03D2D375C3200AA3739 /* DailyBoostApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DailyBoostApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AA2EE0472D375C3200AA3739 /* DailyBoostApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DailyBoostApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2EE0252D375C3000AA3739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0372D375C3200AA3739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0412D375C3200AA3739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2EE01B2D375C3000AA3739 = {
+			isa = PBXGroup;
+			children = (
+				AA2EE02C2D375C3000AA3739 /* DailyBoostApp Watch App */,
+				AA2EE03D2D375C3200AA3739 /* DailyBoostApp Watch AppTests */,
+				AA2EE0472D375C3200AA3739 /* DailyBoostApp Watch AppUITests */,
+				AA2EE0232D375C3000AA3739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2EE0232D375C3000AA3739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2EE0222D375C3000AA3739 /* DailyBoostApp.app */,
+				AA2EE0282D375C3000AA3739 /* DailyBoostApp Watch App.app */,
+				AA2EE03A2D375C3200AA3739 /* DailyBoostApp Watch AppTests.xctest */,
+				AA2EE0442D375C3200AA3739 /* DailyBoostApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2EE0212D375C3000AA3739 /* DailyBoostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2EE0522D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp" */;
+			buildPhases = (
+				AA2EE0202D375C3000AA3739 /* Resources */,
+				AA2EE0512D375C3200AA3739 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2EE02B2D375C3000AA3739 /* PBXTargetDependency */,
+			);
+			name = DailyBoostApp;
+			packageProductDependencies = (
+			);
+			productName = DailyBoostApp;
+			productReference = AA2EE0222D375C3000AA3739 /* DailyBoostApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AA2EE0272D375C3000AA3739 /* DailyBoostApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2EE04E2D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch App" */;
+			buildPhases = (
+				AA2EE0242D375C3000AA3739 /* Sources */,
+				AA2EE0252D375C3000AA3739 /* Frameworks */,
+				AA2EE0262D375C3000AA3739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA2EE02C2D375C3000AA3739 /* DailyBoostApp Watch App */,
+			);
+			name = "DailyBoostApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "DailyBoostApp Watch App";
+			productReference = AA2EE0282D375C3000AA3739 /* DailyBoostApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2EE0392D375C3200AA3739 /* DailyBoostApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2EE0552D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch AppTests" */;
+			buildPhases = (
+				AA2EE0362D375C3200AA3739 /* Sources */,
+				AA2EE0372D375C3200AA3739 /* Frameworks */,
+				AA2EE0382D375C3200AA3739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2EE03C2D375C3200AA3739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA2EE03D2D375C3200AA3739 /* DailyBoostApp Watch AppTests */,
+			);
+			name = "DailyBoostApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "DailyBoostApp Watch AppTests";
+			productReference = AA2EE03A2D375C3200AA3739 /* DailyBoostApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA2EE0432D375C3200AA3739 /* DailyBoostApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2EE0582D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch AppUITests" */;
+			buildPhases = (
+				AA2EE0402D375C3200AA3739 /* Sources */,
+				AA2EE0412D375C3200AA3739 /* Frameworks */,
+				AA2EE0422D375C3200AA3739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2EE0462D375C3200AA3739 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA2EE0472D375C3200AA3739 /* DailyBoostApp Watch AppUITests */,
+			);
+			name = "DailyBoostApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "DailyBoostApp Watch AppUITests";
+			productReference = AA2EE0442D375C3200AA3739 /* DailyBoostApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2EE01C2D375C3000AA3739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA2EE0212D375C3000AA3739 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA2EE0272D375C3000AA3739 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA2EE0392D375C3200AA3739 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA2EE0272D375C3000AA3739;
+					};
+					AA2EE0432D375C3200AA3739 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA2EE0272D375C3000AA3739;
+					};
+				};
+			};
+			buildConfigurationList = AA2EE01F2D375C3000AA3739 /* Build configuration list for PBXProject "DailyBoostApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2EE01B2D375C3000AA3739;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA2EE0232D375C3000AA3739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2EE0212D375C3000AA3739 /* DailyBoostApp */,
+				AA2EE0272D375C3000AA3739 /* DailyBoostApp Watch App */,
+				AA2EE0392D375C3200AA3739 /* DailyBoostApp Watch AppTests */,
+				AA2EE0432D375C3200AA3739 /* DailyBoostApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2EE0202D375C3000AA3739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0262D375C3000AA3739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0382D375C3200AA3739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0422D375C3200AA3739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2EE0242D375C3000AA3739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0362D375C3200AA3739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EE0402D375C3200AA3739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2EE02B2D375C3000AA3739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2EE0272D375C3000AA3739 /* DailyBoostApp Watch App */;
+			targetProxy = AA2EE02A2D375C3000AA3739 /* PBXContainerItemProxy */;
+		};
+		AA2EE03C2D375C3200AA3739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2EE0272D375C3000AA3739 /* DailyBoostApp Watch App */;
+			targetProxy = AA2EE03B2D375C3200AA3739 /* PBXContainerItemProxy */;
+		};
+		AA2EE0462D375C3200AA3739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2EE0272D375C3000AA3739 /* DailyBoostApp Watch App */;
+			targetProxy = AA2EE0452D375C3200AA3739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA2EE04C2D375C3200AA3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA2EE04D2D375C3200AA3739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA2EE04F2D375C3200AA3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyBoostApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyBoostApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.DailyBoostApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA2EE0502D375C3200AA3739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyBoostApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyBoostApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.DailyBoostApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AA2EE0532D375C3200AA3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyBoostApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.DailyBoostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA2EE0542D375C3200AA3739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyBoostApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studioMalva.DailyBoostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2EE0562D375C3200AA3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.DailyBoostApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyBoostApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyBoostApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA2EE0572D375C3200AA3739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.DailyBoostApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyBoostApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyBoostApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AA2EE0592D375C3200AA3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.DailyBoostApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DailyBoostApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA2EE05A2D375C3200AA3739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "studioMalva.DailyBoostApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DailyBoostApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2EE01F2D375C3000AA3739 /* Build configuration list for PBXProject "DailyBoostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EE04C2D375C3200AA3739 /* Debug */,
+				AA2EE04D2D375C3200AA3739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2EE04E2D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EE04F2D375C3200AA3739 /* Debug */,
+				AA2EE0502D375C3200AA3739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2EE0522D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EE0532D375C3200AA3739 /* Debug */,
+				AA2EE0542D375C3200AA3739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2EE0552D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EE0562D375C3200AA3739 /* Debug */,
+				AA2EE0572D375C3200AA3739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2EE0582D375C3200AA3739 /* Build configuration list for PBXNativeTarget "DailyBoostApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EE0592D375C3200AA3739 /* Debug */,
+				AA2EE05A2D375C3200AA3739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2EE01C2D375C3000AA3739 /* Project object */;
+}
